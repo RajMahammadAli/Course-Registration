@@ -1,4 +1,4 @@
-export default function Cart() {
+export default function Cart({ titles }) {
   return (
     <>
       <div className="w-[25%] max-h-auto">
@@ -11,6 +11,13 @@ export default function Cart() {
           <hr />
           <div className="my-2 p-2">
             <h1 className="text-lg font-bold">Course Name</h1>
+            <ol>
+              {titles.map((title, idx) => (
+                <li key={idx}>
+                  {idx + 1}. {title}
+                </li>
+              ))}
+            </ol>
           </div>
           <hr />
           <div className="my-2 p-2">

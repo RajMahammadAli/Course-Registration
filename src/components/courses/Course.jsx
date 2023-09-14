@@ -1,6 +1,5 @@
 import { BsBook } from "react-icons/bs";
-export default function ({ course }) {
-  console.log(course);
+export default function ({ course, handleDisplayTitle }) {
   const { image, title, description, price, duration } = course;
   return (
     <>
@@ -22,7 +21,12 @@ export default function ({ course }) {
               </p>
             </div>
             <div className="card-actions justify-end pt-4">
-              <button className="w-[100%] btn btn-primary">Select</button>
+              <button
+                onClick={() => handleDisplayTitle(title)}
+                className="w-[100%] btn btn-primary"
+              >
+                Select
+              </button>
             </div>
           </div>
         </div>
