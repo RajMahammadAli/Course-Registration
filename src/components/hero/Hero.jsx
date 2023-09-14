@@ -8,7 +8,7 @@ export default function Hero() {
         <h1 className="text-4xl font-bold text-center py-8">
           Course Registration
         </h1>
-        <div className=" flex border-2 p-2 gap-4">
+        <div className=" flex p-2 gap-4">
           <Courses></Courses>
           <Cart></Cart>
         </div>

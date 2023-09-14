@@ -5,72 +5,72 @@
       "title": "JavaScript Fundamentals",
       "description": "Learn the basics of JavaScript programming in this comprehensive course.",
       "price": 49.99,
-      "duration": "8 weeks",
-      "image": "https://example.com/js-course.jpg"
+      "duration": "8 hr",
+      "image": "https://i.ibb.co/17zgKQr/javascript-01.jpg"
     },
     {
       "id": 2,
       "title": "Python for Beginners",
       "description": "Start your journey into Python programming with this beginner-friendly course.",
       "price": 39.99,
-      "duration": "6 weeks",
-      "image": "https://example.com/python-course.jpg"
+      "duration": "6 hr",
+      "image": "https://i.ibb.co/1QdrcDF/js-09.png"
     },
     {
       "id": 3,
       "title": "Advanced Ruby Programming",
       "description": "Take your Ruby skills to the next level with this advanced course.",
       "price": 59.99,
-      "duration": "10 weeks",
-      "image": "https://example.com/ruby-course.jpg"
+      "duration": "10 hr",
+      "image": "https://i.ibb.co/D9fz2Sj/Machine-Learning-07.png"
     },
     {
       "id": 4,
       "title": "React.js Mastery",
       "description": "Become a React.js expert and build amazing web applications.",
       "price": 69.99,
-      "duration": "12 weeks",
-      "image": "https://example.com/react-course.jpg"
+      "duration": "12 hr",
+      "image": "https://i.ibb.co/yg08XyJ/node-06.jpg"
     },
     {
       "id": 5,
       "title": "Data Science with Python",
       "description": "Explore the world of data science using Python programming.",
       "price": 54.99,
-      "duration": "9 weeks",
-      "image": "https://example.com/datascience-course.jpg"
+      "duration": "9 hr",
+      "image": "https://i.ibb.co/27WRY2f/python-02.jpg"
     },
     {
       "id": 6,
       "title": "Node.js Backend Development",
       "description": "Learn how to build powerful backend applications with Node.js.",
       "price": 49.99,
-      "duration": "8 weeks",
-      "image": "https://example.com/nodejs-course.jpg"
+      "duration": "8 hr",
+      "image": "https://i.ibb.co/KK0Ldp6/python-05.jpg"
     },
     {
       "id": 7,
       "title": "Machine Learning Foundations",
       "description": "Get started with the fundamentals of machine learning.",
       "price": 59.99,
-      "duration": "10 weeks",
-      "image": "https://example.com/ml-course.jpg"
+      "duration": "10 hr",
+      "image": "https://i.ibb.co/DGhqnyM/Rails-08.jpg"
     },
     {
       "id": 8,
       "title": "Web Development with Ruby on Rails",
       "description": "Learn how to create web applications using Ruby on Rails framework.",
       "price": 49.99,
-      "duration": "8 weeks",
-      "image": "https://example.com/rails-course.jpg"
+      "duration": "8 hr",
+      "image": "https://i.ibb.co/ZKTWWpM/react-04.jpg"
     },
     {
       "id": 9,
       "title": "Full-Stack JavaScript Development",
       "description": "Master both front-end and back-end development with JavaScript.",
       "price": 69.99,
-      "duration": "12 weeks",
-      "image": "https://example.com/fullstack-js-course.jpg"
+      "duration": "12 hr",
+      "image": "https://i.ibb.co/z5D5M7T/ruby-Advance-03.jpg"
     }
   ]
 }

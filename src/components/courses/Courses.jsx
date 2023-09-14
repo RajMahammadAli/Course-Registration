@@ -11,9 +11,8 @@ export default function Courses() {
   }, []);
   return (
     <>
-      <div className="w-[70%] border-2">
-        <h1>Display all the Courses Here {courses.length}</h1>
-        <div>
+      <div className="w-[75%]">
+        <div className="grid grid-cols-3 gap-3">
           {courses.map((course) => (
             <Course key={course.id} course={course}></Course>
           ))}

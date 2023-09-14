@@ -1,23 +1,28 @@
+import { BsBook } from "react-icons/bs";
 export default function ({ course }) {
   console.log(course);
   const { image, title, description, price, duration } = course;
   return (
     <>
       <div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="h-[420px] bg-base-100 shadow-xl">
           <figure>
-            <img
-              src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-              alt="Shoes"
-            />
+            <img className="h-[180px]" src={image} alt="courses" />
           </figure>
-          <div className="card-body">
-            <h2 className="card-title">{title}</h2>
-            <p>{description}</p>
-            <p>{price}</p>
-            <p>{duration}</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+          <div className="p-2">
+            <h2 className="text-lg text-[#1C1B1B] font-semibold h-[50px]">
+              {title}
+            </h2>
+            <h1 className="m-0 h-[80px]">{description}</h1>
+            <div className="flex justify-between text-base font-medium">
+              <p>$ Price: {price}</p>
+              <p className="text-right flex items-center gap-1 h-[20px]">
+                <BsBook></BsBook>
+                <span>Credit: {duration}</span>
+              </p>
+            </div>
+            <div className="card-actions justify-end pt-4">
+              <button className="w-[100%] btn btn-primary">Select</button>
             </div>
           </div>
         </div>
