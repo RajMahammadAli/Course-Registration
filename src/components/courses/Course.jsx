@@ -6,7 +6,7 @@ export default function ({ course, handleDisplayTitle }) {
   return (
     <>
       <div>
-        <div className="h-[420px] bg-base-100 shadow-xl">
+        <div className="h-[420px] bg-base-100 shadow-xl p-2">
           <figure>
             <img className="h-[180px]" src={image} alt="courses" />
           </figure>
