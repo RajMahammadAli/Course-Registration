@@ -1,4 +1,6 @@
 import { BsBook } from "react-icons/bs";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 export default function ({ course, handleDisplayTitle }) {
   const { image, title, description, price, duration } = course;
   return (
@@ -22,11 +24,12 @@ export default function ({ course, handleDisplayTitle }) {
             </div>
             <div className="card-actions justify-end pt-4">
               <button
-                onClick={() => handleDisplayTitle(title)}
+                onClick={() => handleDisplayTitle(title, duration, course)}
                 className="w-[100%] btn btn-primary"
               >
                 Select
               </button>
+              <ToastContainer />
             </div>
           </div>
         </div>
